@@ -1,14 +1,14 @@
 import firebase from 'firebase';
 // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyDvtr-W-vY9z-NxJpdocwSGraJ7MCYRaXA",
-    authDomain: "quiz-social-cdcc0.firebaseapp.com",
-    databaseURL: "https://quiz-social-cdcc0.firebaseio.com",
-    projectId: "quiz-social-cdcc0",
-    storageBucket: "",
-    messagingSenderId: "490519306337"
-  };
-  firebase.initializeApp(config);
+var config = {
+  apiKey: "AIzaSyAqhoWpD0FX6esDysZx3Suj-SUYuJiIwyM",
+  authDomain: "quizrtsocial-db.firebaseapp.com",
+  databaseURL: "https://quizrtsocial-db.firebaseio.com",
+  projectId: "quizrtsocial-db",
+  storageBucket: "quizrtsocial-db.appspot.com",
+  messagingSenderId: "701948863845"
+};
+firebase.initializeApp(config);
 
 
   var database = firebase.database();
